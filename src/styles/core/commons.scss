@@ -1,0 +1,39 @@
+@import "./vars.scss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 100%;
+  background-color: $white;
+  font-family: $main-font;
+  color: $black;
+  font-size: $text-size;
+  font-weight: 600;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+h1 {
+  font-size: $title;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: $subtitle;
+}
+
+label {
+  display: block;
+}
+
+input {
+  display: block;
+  padding: 7px;
+}
